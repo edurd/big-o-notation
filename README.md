@@ -212,10 +212,9 @@ func permutations(of list: [Int]) -> [[Int]] {
 ```
 
 # Some tips on how to identify Big O
-
-- **Count Loops**: One loop = O(n). Nested loops = O(n²).
-- **Divide and Conquer**: Look for halving = O(log n).
-- **Recursion**: Check how many calls are made = O(2ⁿ) or similar.
+- **Count Loops**: A single loop typically means O(n), while nested loops result in O(n²).
+- **Divide and Conquer**: When an algorithm repeatedly splits data in half, it typically results in O(log n).
+- **Recursion**: Count the number of recursive calls made, which often results in O(2ⁿ) or similar complexity.
 
 # Why is it important and why should I care?
 
